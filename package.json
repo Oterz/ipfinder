@@ -1,0 +1,25 @@
+{
+  "name": "ip-address-tracker-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --dist-dir build",
+    "format": "prettier . --write",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "prettier": "^3.5.3",
+    "svgo": "^3.3.2",
+    "vercel": "^41.4.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "leaflet": "^1.9.4"
+  }
+}
