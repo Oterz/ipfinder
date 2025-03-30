@@ -20,4 +20,3 @@ dist/
 .cache/
 .prettierignore
 .vercel
-.parcel-cache
