@@ -19,5 +19,5 @@ build/
 dist/
 .cache/
 .prettierignore
-.prettierrcnp
 .vercel
+.parcel-cache
